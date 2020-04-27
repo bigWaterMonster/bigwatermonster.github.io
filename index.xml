@@ -12,21 +12,12 @@
     
     
     <item>
-      <title>My First Post</title>
+      <title>如何使用 GitHub Pages 预览 HTML</title>
       <link>http://example.org/posts/my-first-post/</link>
       <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Hello World </description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>http://example.org/posts/second-post/</link>
-      <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
-      
-      <guid>http://example.org/posts/second-post/</guid>
-      <description>Hello World </description>
+      <description>Hello World  在github上创建一个名为 [github账户名].github.io的仓库 放入index.html或者项目 然后点击进入这个仓库的settings选项GitHub Pages（Source）为master 此时点击绿色区域内链接就可以预览HTML 可购买域名配置dns指向此网页ip,同时在Custom domain配置购买的域名  </description>
     </item>
     
   </channel>
