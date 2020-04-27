@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Home</title>
-    <link>http://example.org/</link>
+    <link>http://bigwatermonster.github.io/</link>
     <description>Recent content on My Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Tue, 28 Apr 2020 00:43:58 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://bigwatermonster.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>如何使用 GitHub Pages 预览 HTML</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>http://bigwatermonster.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
+      <guid>http://bigwatermonster.github.io/posts/my-first-post/</guid>
       <description>Hello World  在github上创建一个名为 [github账户名].github.io的仓库 放入index.html或者项目 然后点击进入这个仓库的settings选项GitHub Pages（Source）为master 此时点击绿色区域内链接就可以预览HTML 可购买域名配置dns指向此网页ip,同时在Custom domain配置购买的域名  </description>
     </item>
     
