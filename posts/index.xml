@@ -6,10 +6,19 @@
     <description>Recent content in Posts on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Tue, 28 Apr 2020 00:43:58 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2020 01:29:54 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML入门笔记1</title>
+      <link>http://bigwatermonster.github.io/posts/html/</link>
+      <pubDate>Tue, 28 Apr 2020 01:29:54 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/html/</guid>
+      <description>HTML入门笔记1 html创造者  Tim Berners-Lee  html起手式  空白html内输入 ! 自动成功html基础模版  常用章节标签  标题h1_h6 章节section 文章article 段落p 头部header 尾部footer 主要内容main 旁枝内容aside 划分区块div  常用内容标签  有序列表ol+li 无序列表ul+li 保留标签内空格pre 水平分割线hr 换行符br 跳转链接a 语气强调em 内容强调strong 代码片段（代码字符等宽） 内联引用quote 块状引用(自带tab空格效果)blockquote  全局属性 &amp;mdash; 所有html标签都有的属性  类名class 使元素可编辑contenteditable 隐藏元素hidden 全局唯一值id(html非强制,js会警告) 内联样式style 键盘tab聚焦tabindex 鼠标划过标题title  </description>
+    </item>
     
     <item>
       <title>如何使用 GitHub Pages 预览 HTML</title>
