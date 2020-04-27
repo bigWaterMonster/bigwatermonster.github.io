@@ -20,5 +20,14 @@
       <description>Hello World </description>
     </item>
     
+    <item>
+      <title>My Second Post</title>
+      <link>http://example.org/posts/second-post/</link>
+      <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
+      
+      <guid>http://example.org/posts/second-post/</guid>
+      <description>Hello World </description>
+    </item>
+    
   </channel>
 </rss>
