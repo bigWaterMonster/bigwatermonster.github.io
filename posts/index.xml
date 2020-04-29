@@ -27,7 +27,7 @@
       
       <guid>http://bigwatermonster.github.io/posts/htmlkeynote/</guid>
       <description>HTML常用标签 一. a 属性:
- href  绝对路径  &amp;lt;a href=&amp;quot;/a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   相对路径  &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; or &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   伪协议　只执行代码逻辑,不进行跳转  &amp;lt;a href=&amp;quot;javascript:code;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;mailto:email;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;tel:phonecall;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;     download // 下载相关 target _blank 新页面打开 _self 在自身内打开（默认值） _top 嵌套iframe src 在最外层打开 name定义窗口门 _parent 嵌套iframe在外层打开 自定义名字跳转到自定义名字窗口 target=&#39;xxx&amp;rsquo;,给新打开的窗口window.name=&#39;xxx&amp;rsquo;  二. 表格相关 标签: table thead tbody tfooter tr th tr td
+ href  绝对路径  &amp;lt;a href=&amp;quot;/a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   相对路径  &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; or &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   伪协议　只执行代码逻辑,不进行跳转  &amp;lt;a href=&amp;quot;javascript:code;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;mailto:email;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;tel:phonecall;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;     download // 下载相关 target  _blank 新页面打开 _self 在自身内打开（默认值） _top 嵌套iframe src 在最外层打开 name定义窗口门 _parent 嵌套iframe在外层打开 自定义名字跳转到自定义名字窗口 target=&#39;xxx&amp;rsquo;,给新打开的窗口window.name=&#39;xxx&amp;rsquo;    二. 表格相关 标签: table thead tbody tfooter tr th tr td
  table &amp;gt; thead tbody tfooter thead tbody tfooter &amp;gt; tr tr &amp;gt; th td 可表格嵌套  table 常用属性</description>
     </item>
     
