@@ -6,10 +6,21 @@
     <description>Recent content on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Tue, 28 Apr 2020 01:29:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2020 09:20:58 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML常用标签</title>
+      <link>http://bigwatermonster.github.io/posts/htmlkeynote/</link>
+      <pubDate>Wed, 29 Apr 2020 09:20:58 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/htmlkeynote/</guid>
+      <description>HTML常用标签 一. a 属性:
+ href  绝对路径  &amp;lt;a href=&amp;quot;/a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   相对路径  &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; or &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   伪协议　只执行代码逻辑,不进行跳转  &amp;lt;a href=&amp;quot;javascript:code;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;mailto:email;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;tel:phonecall;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;     download // 下载相关 target  _blank 新页面打开 _self 在自身内打开（默认值） _top 嵌套iframe src 在最外层打开 name定义窗口门 _parent 嵌套iframe在外层打开 自定义名字跳转到自定义名字窗口 target=&#39;xxx&amp;rsquo;,给新打开的窗口window.name=&#39;xxx&amp;rsquo;    二. 表格相关 标签: table thead tbody tfooter tr th tr td
+ table &amp;gt; thead tbody tfooter thead tbody tfooter &amp;gt; tr tr &amp;gt; th td 可表格嵌套  table 常用属性</description>
+    </item>
     
     <item>
       <title>HTML入门笔记1</title>
@@ -18,17 +29,6 @@
       
       <guid>http://bigwatermonster.github.io/posts/html/</guid>
       <description>HTML入门笔记1 html创造者  Tim Berners-Lee  html起手式  空白html内输入 ! 自动成功html基础模版  常用章节标签  标题h1_h6 章节section 文章article 段落p 头部header 尾部footer 主要内容main 旁枝内容aside 划分区块div  常用内容标签  有序列表ol+li 无序列表ul+li 保留标签内空格pre 水平分割线hr 换行符br 跳转链接a 语气强调em 内容强调strong 代码片段（代码字符等宽） 内联引用quote 块状引用(自带tab空格效果)blockquote  全局属性 &amp;mdash; 所有html标签都有的属性  类名class 使元素可编辑contenteditable 隐藏元素hidden 全局唯一值id(html非强制,js会警告) 内联样式style 键盘tab聚焦tabindex 鼠标划过标题title  </description>
-    </item>
-    
-    <item>
-      <title>HTML常用标签</title>
-      <link>http://bigwatermonster.github.io/posts/htmlkeynote/</link>
-      <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
-      
-      <guid>http://bigwatermonster.github.io/posts/htmlkeynote/</guid>
-      <description>HTML常用标签 一. a 属性:
- href  绝对路径  &amp;lt;a href=&amp;quot;/a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   相对路径  &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; or &amp;lt;a href=&amp;quot;./a.com&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;   伪协议　只执行代码逻辑,不进行跳转  &amp;lt;a href=&amp;quot;javascript:code;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;mailto:email;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt; &amp;lt;a href=&amp;quot;tel:phonecall;&amp;quot;&amp;gt;_&amp;lt;/a&amp;gt;     download // 下载相关 target  _blank 新页面打开 _self 在自身内打开（默认值） _top 嵌套iframe src 在最外层打开 name定义窗口门 _parent 嵌套iframe在外层打开 自定义名字跳转到自定义名字窗口 target=&#39;xxx&amp;rsquo;,给新打开的窗口window.name=&#39;xxx&amp;rsquo;    二. 表格相关 标签: table thead tbody tfooter tr th tr td
- table &amp;gt; thead tbody tfooter thead tbody tfooter &amp;gt; tr tr &amp;gt; th td 可表格嵌套  table 常用属性</description>
     </item>
     
     <item>
