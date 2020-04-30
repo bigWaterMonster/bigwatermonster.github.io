@@ -43,22 +43,22 @@
     </item>
     
     <item>
+      <title>生平</title>
+      <link>http://bigwatermonster.github.io/posts/mylife/</link>
+      <pubDate>Tue, 28 Apr 2020 01:29:54 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/mylife/</guid>
+      <description>生平 console.log(&#39;hello world&#39;)
+爱好  ps4 宫崎英高 switch 马嬲制造 typescript javascript golang vue react  学历经历  大学 高中 初中 小学  感情经历  null  interface 生平 { hobby: string[], EducationExperience: { [props:string]: string } lover: unknown } class Me implements 生平 { compose: string[] legs = 2 head = 1 hands = 2 hobby = []// ...  EducationExperience = { // ...  } lover = null construtor(compose: string[], ) { this.</description>
+    </item>
+    
+    <item>
       <title>如何使用 GitHub Pages 预览 HTML</title>
       <link>http://bigwatermonster.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 28 Apr 2020 00:43:58 +0800</pubDate>
       
       <guid>http://bigwatermonster.github.io/posts/my-first-post/</guid>
       <description>Hello World  在github上创建一个名为 [github账户名].github.io的仓库 放入index.html或者项目 然后点击进入这个仓库的settings选项GitHub Pages（Source）为master 此时点击绿色区域内链接就可以预览HTML 可购买域名配置dns指向此网页ip,同时在Custom domain配置购买的域名  </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://bigwatermonster.github.io/posts/mylife/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://bigwatermonster.github.io/posts/mylife/</guid>
-      <description>生平 console.log(&#39;hello world&#39;)
-爱好  ps4 宫崎英高 switch 马嬲制造 typescript javascript golang vue react  学历经历  大学 高中 初中 小学  感情经历  null  interface 生平 { hobby: string[], EducationExperience: { [props:string]: string } lover: unknown } class Me implements 生平 { compose: string[] legs = 2 head = 1 hands = 2 hobby = []// ...  EducationExperience = { // ...  } lover = null construtor(compose: string[], ) { this.</description>
     </item>
     
   </channel>
