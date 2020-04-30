@@ -6,10 +6,21 @@
     <description>Recent content on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 29 Apr 2020 09:20:58 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 19:49:41 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Css</title>
+      <link>http://bigwatermonster.github.io/posts/css/</link>
+      <pubDate>Thu, 30 Apr 2020 19:49:41 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/css/</guid>
+      <description>CSS总结笔记 一. 浏览器渲染原理  浏览器解析html生成dom树 浏览器解析css生成css树 dom树和css树合成生成render渲染树 layout布局 paint绘制样式 composite合成图层  页面3种更新方式  javascript/css改变 -&amp;gt; style 样式重新计算 -&amp;gt; layout -&amp;gt; paint -&amp;gt; composite javascript/css改变 -&amp;gt; style 样式重新计算 -&amp;gt; &amp;mdash;&amp;mdash; -&amp;gt; paint -&amp;gt; composite javascript/css改变 -&amp;gt; style 样式重新计算 -&amp;gt; &amp;mdash;&amp;mdash; -&amp;gt; &amp;mdash;&amp;ndash; -&amp;gt; composite  css属性更新方式总结
+二. CSS 动画的两种做法（transition 和 animation） transition常用:
+ transition: name | duration | timing function | delay transform: translate() rotate() scale() skew 在想要使用动画的元素上使用transition 在某些动作(hover或添加js等)后为元素加上transform属性，触发动画  animation常用:</description>
+    </item>
     
     <item>
       <title>HTML常用标签</title>
