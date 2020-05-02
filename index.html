@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://bigwatermonster.github.io/" />
-<meta property="og:updated_time" content="2020-05-02T12:34:52+08:00" />
+<meta property="og:updated_time" content="2020-05-02T21:26:37+08:00" />
 <meta itemprop="name" content="chenHao&#39;s Home">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="chenHao&#39;s Home"/>
@@ -122,6 +122,31 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://bigwatermonster.github.io/posts/obj/" class="color-inherit dim link">
+            对象的基本使用
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          对象的基本使用 声明对象的两种语法  字面量声明  const obj = { name: &#39;&#39;, value: &#39;&#39; } 用Object构造函数声明  const obj = new Object({ name: &#39;&#39;, value: &#39;&#39; }) 两种方式效果一样第一种更加方便,一般用第一种
+如何删除对象的属性 delete obj.name 如何查看对象的属性  查看对象自身所有key,不包括symbol Object.keys(obj)  控制台用目录形式查看对象属性包括原型 console.dir(obj)  直接查看某一属性 const x = obj.name console.log(x)  查看自身所有key值包括symbol Reflect.ownKeys(obj)  查看所有自身属性key不包含symbol Object.getOwnPropertyNames(obj)  查看所有自身属性key为symbol的key Object.getOwnPropertySymbolsI(obj)   如何修改或增加对象的属性  单一修改或增加 obj.name = &#39;xxx&#39;  批量修改或增加 Object.assign(obj, {})   &lsquo;name&rsquo; in obj和obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别  &lsquo;name&rsquo; in obj 如果obj上没有name这个属性，会查看他的原型对象 obj.
+        </div>
+          <a href="http://bigwatermonster.github.io/posts/obj/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="http://bigwatermonster.github.io/posts/js/" class="color-inherit dim link">
             Js的诞生
             </a>
@@ -170,45 +195,18 @@ x + 1 func(&ldquo;a&rdquo;, &ldquo;b&rdquo;)
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="http://bigwatermonster.github.io/posts/url/" class="color-inherit dim link">
-            浅析 URL
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          URI URI = URL + URN
-URI可被视为定位符（URL）,名称（URN）或两者兼备。统一资源名（URN）如同一个人的名称，而统一资源定位符（URL）代表一个人的住址。换言之，URN定义某事物的身份，而URL提供查找该事物的方法。
-URL 例: https://xxxx.com:4321/A?name=helloWorld&amp;password=123456#C
-协议 + 域名 + 端口 + 路径 + 查询参数 + 锚点
- 协议: https 域名: xxxx.com:43 域名 端口: :4321 端口 路径: /A 查询参数: name=helloWorld&amp;password=123456 锚点: #C  IP IP地址分2类
- ipv4(32位) 123.123.123.123 每组10进制 ipv6(128位) 2001:0db8:86a3:08d3:1319:8a2e:0370:7344 每组16进制  主要作用 使用户可以链接网络, 相当于一个门牌号, 根据门牌可以找到你，你有别人的ip也可以找到别人, 可分内网Ip和外网Ip, 常用ping命令测试ip地址直接是否可以通信
-域名 ip地址由数字组成不方便记忆，所以有了域名更好的让人记忆，指向一个ip，可能一个ip同时有多个域名指向他。 如: baidu.com || 7k7k.com -&gt; 1.2.3.4
-分类 例
-a.b.c.com
- com为顶级域名 c为2级域名 b为3级域名 以此类推a为4级之后每多一个点就多一级  b.
-        </div>
-          <a href="http://bigwatermonster.github.io/posts/url/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="http://bigwatermonster.github.io/posts/url/" class="link black dim">
+              浅析 URL
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="http://bigwatermonster.github.io/posts/css/" class="link black dim">
@@ -225,12 +223,6 @@ a.b.c.com
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="http://bigwatermonster.github.io/posts/html/" class="link black dim">
               HTML入门笔记1
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="http://bigwatermonster.github.io/posts/mylife/" class="link black dim">
-              生平
             </a>
           </h2>
         

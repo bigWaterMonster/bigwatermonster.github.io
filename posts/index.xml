@@ -6,10 +6,20 @@
     <description>Recent content in Posts on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 02 May 2020 12:34:52 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2020 21:26:37 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>对象的基本使用</title>
+      <link>http://bigwatermonster.github.io/posts/obj/</link>
+      <pubDate>Sat, 02 May 2020 21:26:37 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/obj/</guid>
+      <description>对象的基本使用 声明对象的两种语法  字面量声明  const obj = { name: &amp;#39;&amp;#39;, value: &amp;#39;&amp;#39; } 用Object构造函数声明  const obj = new Object({ name: &amp;#39;&amp;#39;, value: &amp;#39;&amp;#39; }) 两种方式效果一样第一种更加方便,一般用第一种
+如何删除对象的属性 delete obj.name 如何查看对象的属性  查看对象自身所有key,不包括symbol Object.keys(obj)  控制台用目录形式查看对象属性包括原型 console.dir(obj)  直接查看某一属性 const x = obj.name console.log(x)  查看自身所有key值包括symbol Reflect.ownKeys(obj)  查看所有自身属性key不包含symbol Object.getOwnPropertyNames(obj)  查看所有自身属性key为symbol的key Object.getOwnPropertySymbolsI(obj)   如何修改或增加对象的属性  单一修改或增加 obj.name = &amp;#39;xxx&amp;#39;  批量修改或增加 Object.assign(obj, {})   &amp;lsquo;name&amp;rsquo; in obj和obj.hasOwnProperty(&amp;lsquo;name&amp;rsquo;) 的区别  &amp;lsquo;name&amp;rsquo; in obj 如果obj上没有name这个属性，会查看他的原型对象 obj.</description>
+    </item>
     
     <item>
       <title>Js的诞生</title>
