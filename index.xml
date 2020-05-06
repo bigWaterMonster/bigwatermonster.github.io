@@ -6,10 +6,19 @@
     <description>Recent content on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Mon, 04 May 2020 20:47:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 12:28:24 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>排序算法</title>
+      <link>http://bigwatermonster.github.io/posts/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Wed, 06 May 2020 12:28:24 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/%E7%AE%97%E6%B3%95/</guid>
+      <description>排序算法 一. 选择排序 function swap(arr, i, j) { [arr[i], arr[j]] = [arr[j], arr[i]] } function 选择排序(arr) { for (let i = 0; i &amp;lt; arr.length - 1; i += 1) { let minIndex = i; // 默认每次遍历开始最小值下标为  for (let j = i + 1; j &amp;lt; arr.length; j += 1) { if (arr[minIndex] &amp;gt; arr[j]) { minIndex = j } } swap(arr, minIndex, i) } return arr } 二. 插入排序 function sort(arr) { for (let i = 1; i &amp;lt; arr.</description>
+    </item>
     
     <item>
       <title>JS 函数的执行时机</title>
