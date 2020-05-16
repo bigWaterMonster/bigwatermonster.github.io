@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://bigwatermonster.github.io/" />
-<meta property="og:updated_time" content="2020-05-06T12:28:24+08:00" />
+<meta property="og:updated_time" content="2020-05-16T20:39:53+08:00" />
 <meta itemprop="name" content="chenHao&#39;s Home">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="chenHao&#39;s Home"/>
@@ -122,6 +122,30 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="http://bigwatermonster.github.io/posts/vue3/" class="color-inherit dim link">
+            Vue3
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          vue3简易响应式实现(没有数组的响应式，只有对象) // 2.0 Object.defineProperty 上来所有属性全递归 数组下标修改无法触发set,需要拦截  // 3.0 Proxy, Reflect 延迟递归，get触发时才递归 数组直接可以触发set  // my Vue3  let toProxy = new WeakMap() let toRow = new WeakMap() function hasOwn(target, key) { return target.hasOwnProperty(key) } function myIsObject(target) { return typeof target === &#39;object&#39; &amp;&amp; target !== null } function myReactive(target) { return myCreateReactiveObject(target) } let activeEffectStack = [] // weakMap  // {  // 源对象: Map {  // key1: effect Set  // key2: effect Set  // }  // }  // 订阅了这个对象值的人有谁  function MyWatchEffect(fn) { let effect = createReactiveEffect(fn) effect() } function createReactiveEffect(fn) { // 返回一个函数，将自身塞入stack，同时执行原始fn  return function effect() { try { activeEffectStack.
+        </div>
+          <a href="http://bigwatermonster.github.io/posts/vue3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="http://bigwatermonster.github.io/posts/%E7%AE%97%E6%B3%95/" class="color-inherit dim link">
             排序算法
             </a>
@@ -162,37 +186,18 @@
 
           </div>
         
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-      <div class="blah w-100">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="http://bigwatermonster.github.io/posts/obj/" class="color-inherit dim link">
-            对象的基本使用
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          对象的基本使用 声明对象的两种语法  字面量声明  const obj = { name: &#39;&#39;, value: &#39;&#39; } 用Object构造函数声明  const obj = new Object({ name: &#39;&#39;, value: &#39;&#39; }) 两种方式效果一样第一种更加方便,一般用第一种
-如何删除对象的属性 delete obj.name 如何查看对象的属性  查看对象自身所有key,不包括symbol Object.keys(obj)  控制台用目录形式查看对象属性包括原型 console.dir(obj)  直接查看某一属性 const x = obj.name console.log(x)  查看自身所有key值包括symbol Reflect.ownKeys(obj)  查看所有自身属性key不包含symbol Object.getOwnPropertyNames(obj)  查看所有自身属性key为symbol的key Object.getOwnPropertySymbolsI(obj)   如何修改或增加对象的属性  单一修改或增加 obj.name = &#39;xxx&#39;  批量修改或增加 Object.assign(obj, {})   &lsquo;name&rsquo; in obj和obj.hasOwnProperty(&lsquo;name&rsquo;) 的区别  &lsquo;name&rsquo; in obj 如果obj上没有name这个属性，会查看他的原型对象 obj.
-        </div>
-          <a href="http://bigwatermonster.github.io/posts/obj/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
       </section>
 
       
       <section class="w-100">
         <h1 class="f3">More</h1>
         
+        
+          <h2 class="f5 fw4 mb4 dib mr3">
+            <a href="http://bigwatermonster.github.io/posts/obj/" class="link black dim">
+              对象的基本使用
+            </a>
+          </h2>
         
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="http://bigwatermonster.github.io/posts/js/" class="link black dim">
@@ -209,12 +214,6 @@
           <h2 class="f5 fw4 mb4 dib mr3">
             <a href="http://bigwatermonster.github.io/posts/url/" class="link black dim">
               浅析 URL
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="http://bigwatermonster.github.io/posts/css/" class="link black dim">
-              Css
             </a>
           </h2>
         

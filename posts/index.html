@@ -34,7 +34,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://bigwatermonster.github.io/posts/" />
-<meta property="og:updated_time" content="2020-05-06T12:28:24+08:00" />
+<meta property="og:updated_time" content="2020-05-16T20:39:53+08:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -91,6 +91,21 @@
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="http://bigwatermonster.github.io/posts/vue3/" class="link black dim">
+        Vue3
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      vue3简易响应式实现(没有数组的响应式，只有对象) // 2.0 Object.defineProperty 上来所有属性全递归 数组下标修改无法触发set,需要拦截  // 3.0 Proxy, Reflect 延迟递归，get触发时才递归 数组直接可以触发set  // my Vue3  let toProxy = new WeakMap() let toRow = new WeakMap() function hasOwn(target, key) { return target.hasOwnProperty(key) } function myIsObject(target) { return typeof target === &#39;object&#39; &amp;&amp; target !== null } function myReactive(target) { return myCreateReactiveObject(target) } let activeEffectStack = [] // weakMap  // {  // 源对象: Map {  // key1: effect Set  // key2: effect Set  // }  // }  // 订阅了这个对象值的人有谁  function MyWatchEffect(fn) { let effect = createReactiveEffect(fn) effect() } function createReactiveEffect(fn) { // 返回一个函数，将自身塞入stack，同时执行原始fn  return function effect() { try { activeEffectStack.
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
@@ -244,22 +259,6 @@ a.b.c.com
     </h1>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       HTML入门笔记1 html创造者  Tim Berners-Lee  html起手式  空白html内输入 ! 自动成功html基础模版  常用章节标签  标题h1_h6 章节section 文章article 段落p 头部header 尾部footer 主要内容main 旁枝内容aside 划分区块div  常用内容标签  有序列表ol+li 无序列表ul+li 保留标签内空格pre 水平分割线hr 换行符br 跳转链接a 语气强调em 内容强调strong 代码片段（代码字符等宽） 内联引用quote 块状引用(自带tab空格效果)blockquote  全局属性 &mdash; 所有html标签都有的属性  类名class 使元素可编辑contenteditable 隐藏元素hidden 全局唯一值id(html非强制,js会警告) 内联样式style 键盘tab聚焦tabindex 鼠标划过标题title  
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="http://bigwatermonster.github.io/posts/mylife/" class="link black dim">
-        生平
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      生平 console.log('hello world')
-爱好  ps4 宫崎英高 switch 马嬲制造 typescript javascript golang vue react  学历经历  大学 高中 初中 小学  感情经历  null  interface 生平 { hobby: string[], EducationExperience: { [props:string]: string } lover: unknown } class Me implements 生平 { compose: string[] legs = 2 head = 1 hands = 2 hobby = []// ...  EducationExperience = { // ...  } lover = null construtor(compose: string[], ) { this.
     </div>
   </div>
 </div>

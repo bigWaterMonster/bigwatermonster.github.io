@@ -6,10 +6,19 @@
     <description>Recent content in Posts on chenHao&#39;s Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Wed, 06 May 2020 12:28:24 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 20:39:53 +0800</lastBuildDate>
     
 	<atom:link href="http://bigwatermonster.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vue3</title>
+      <link>http://bigwatermonster.github.io/posts/vue3/</link>
+      <pubDate>Sat, 16 May 2020 20:39:53 +0800</pubDate>
+      
+      <guid>http://bigwatermonster.github.io/posts/vue3/</guid>
+      <description>vue3简易响应式实现(没有数组的响应式，只有对象) // 2.0 Object.defineProperty 上来所有属性全递归 数组下标修改无法触发set,需要拦截  // 3.0 Proxy, Reflect 延迟递归，get触发时才递归 数组直接可以触发set  // my Vue3  let toProxy = new WeakMap() let toRow = new WeakMap() function hasOwn(target, key) { return target.hasOwnProperty(key) } function myIsObject(target) { return typeof target === &amp;#39;object&amp;#39; &amp;amp;&amp;amp; target !== null } function myReactive(target) { return myCreateReactiveObject(target) } let activeEffectStack = [] // weakMap  // {  // 源对象: Map {  // key1: effect Set  // key2: effect Set  // }  // }  // 订阅了这个对象值的人有谁  function MyWatchEffect(fn) { let effect = createReactiveEffect(fn) effect() } function createReactiveEffect(fn) { // 返回一个函数，将自身塞入stack，同时执行原始fn  return function effect() { try { activeEffectStack.</description>
+    </item>
     
     <item>
       <title>排序算法</title>
